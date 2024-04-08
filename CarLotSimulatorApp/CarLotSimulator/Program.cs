@@ -44,11 +44,19 @@ namespace CarLotSimulator
 
             var superMansCar = new Car(2019, "Ferrari", "SuperFast", "GRRRR", "BowBow", true);
 
-            andrewsCar.MakeEngineNoise();
-            batMansCar.MakeEngineNoise();
-            superMansCar.MakeEngineNoise();
-            
+            andrewsCar.MakeMake();
+            andrewsCar.MakeModel();
+            batMansCar.MakeMake();
+            batMansCar.MakeModel();
+            superMansCar.MakeMake();
+            superMansCar.MakeModel();
 
+
+
+
+
+
+            Console.WriteLine($"Number of cars created: {CarLot.numberOfCars}");
 
             //*************BONUS*************//
 
